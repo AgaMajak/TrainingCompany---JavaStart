@@ -1,3 +1,7 @@
+import Data.Student;
+import Data.Teacher;
+import Data.TrainingGroup;
+
 public class CompanyMain {
     public static void main(String[] args) {
         Student[] students = {
@@ -8,6 +12,8 @@ public class CompanyMain {
         Teacher teacher = new Teacher("Janina", "Malinowska", 666777888, "Angielski", 3000.0);
 
         TrainingGroup english = new TrainingGroup("Angielski", teacher, students);
+
+        english.showGroupInfo();
 
 
     }

@@ -1,3 +1,5 @@
+package Data;
+
 public class Student extends Person {
     protected String attendedClasses;
     protected double monthlyCharge;

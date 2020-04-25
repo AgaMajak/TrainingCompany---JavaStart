@@ -1,3 +1,5 @@
+package Data;
+
 public class Teacher extends Person {
     protected String teachingSubject;
     protected double salary;
