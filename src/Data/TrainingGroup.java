@@ -1,9 +1,9 @@
 package Data;
 
 public class TrainingGroup {
-    protected String subject;
-    protected Teacher teacher;
-    protected Student[] students;
+    String subject;
+    Teacher teacher;
+    Student[] students;
 
     public TrainingGroup(String subject, Teacher teacher, Student[] students) {
         this.subject = subject;

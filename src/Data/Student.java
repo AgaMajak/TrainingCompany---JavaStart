@@ -1,8 +1,8 @@
 package Data;
 
 public class Student extends Person {
-    protected String attendedClasses;
-    protected double monthlyCharge;
+    String attendedClasses;
+    double monthlyCharge;
 
     public Student(String firstName, String lastName, int phoneNumber, String attendedClasses, double monthlyCharge) {
         super(firstName, lastName, phoneNumber);
